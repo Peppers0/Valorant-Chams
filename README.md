@@ -1,6 +1,6 @@
 # Valorant Chams
 
-This source is a fully rebuilt and cleaned valorant wallhack cheat, this was made to take down a paste paid 2 cheat called BWH which is "developed" and owned by a paster called zipq. The DrawIndexed function is taken from BWH's pasted dll's pseudocode and has been cleaned and refactored. Please stop buying BWH, it is fully pasted and is detected as it raises multiple red flags, this source is also not **UNDETECTED** as it .text hooks the DrawIndexed function.
+This source is a fully rebuilt and cleaned valorant wall hack, this was made to take down a paste paid 2 cheat called BWH which is "developed" and owned by a paster called zipq. The DrawIndexed function is taken from BWH's pasted dll's pseudocode and has been cleaned and refactored. Please stop buying BWH, it is fully pasted and is detected as it raises multiple red flags, this source is also not **UNDETECTED** as it .text hooks the DrawIndexed function.
 
 
 ## How to use
