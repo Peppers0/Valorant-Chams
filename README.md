@@ -15,7 +15,7 @@ No, I will hunt your p2c down if I do find it being used.
 
 ## To zipq
 
-Do us a favor and go hang yourself, you are nowhere undetected, I am talking about your "special" build as well as public build.
+Do us a favor and stop selling, you are nowhere undetected, I am talking about your "special" build as well as public build.
 
 
 
