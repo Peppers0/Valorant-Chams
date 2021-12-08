@@ -6,9 +6,10 @@
 #include "include/MinHook.h"
 #pragma comment(lib, "d3d11.lib")
 
-// My injector variables
+// Variables initialized by my injector, you need to initialize this yourself.
 #pragma section(".text")
-__declspec(allocate(".text")) uint64_t DiscordPresent, DiscordBase;
+__declspec(allocate(".text")) uint64_t DiscordPresent;
+uint64_t DiscordBase;
 
 HRESULT(__fastcall* DrawIndexedOriginal)(
 	ID3D11DeviceContext* pContext,
