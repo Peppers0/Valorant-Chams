@@ -23,4 +23,4 @@ Do us a favor and go hang yourself, you are nowhere undetected, I am talking abo
 
 More pay 2 cheat reversals soon :P
 
-Much luv ItsGamerDoc :3
+Much luv ItsGamerDoc for inspiring me to be in the anti-cheater clan :3
