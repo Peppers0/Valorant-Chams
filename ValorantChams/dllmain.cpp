@@ -17,7 +17,9 @@ HRESULT(__fastcall* DrawIndexedOriginal)(
 	INT BaseVertexLocation);
 
 /// <summary>
-/// DrawIndexed hook pseudocode cleaned and decompiled straight from your favorite pasted valorant cheat BWH. BWH is pasted from https://github.com/DrNseven/D3D11-Worldtoscreen-Finder so please stop buying this crap thanks, this will not need an update after you have fixed it for your own injector.
+/// DrawIndexed hook pseudocode cleaned and decompiled straight from your favorite pasted valorant cheat BWH.
+/// BWH is pasted from https://github.com/DrNseven/D3D11-Worldtoscreen-Finder so please stop buying this crap thanks,
+/// this will not need an update after you have fixed it for your own injector.
 /// </summary>
 /// <param name="pContext"></param>
 /// <param name="IndexCount"></param>
