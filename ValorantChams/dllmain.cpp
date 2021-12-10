@@ -88,7 +88,10 @@ HRESULT __fastcall DrawIndexedHook(ID3D11DeviceContext* Context, UINT IndexCount
 }
 
 /// <summary>
-/// Hijacks present to get the device context to hook DrawIndexed.
+/// Hijacks present to get the device context to hook DrawIndexed. I am hooking the present for 1 frame to get the device context,
+/// because my injector already hijacks discord's present so it is easier for me to do this. There are 2 approaches to get the function,
+/// one being D3D11CreateDeviceAndSwapChain to get the context, and second, signature scanning "48 83 EC 38 48 8B 81 ? ? ? ? 48 81 C1 ? ? ? ? FF 15 ? ? ? ? 48 83 C4 38 C3"
+/// in d3d11.dll (first result).
 /// </summary>
 /// <param name="SwapChain"></param>
 /// <param name="Flags"></param>
